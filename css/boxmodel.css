@@ -1,0 +1,20 @@
+img{
+    max-width: 100%;
+}
+div{
+    width: 600px;
+    float:left;
+    border: 1px solid #222222;
+    margin: 10px;
+    padding: 10px;
+    background-color: beige;
+    /*background-image: url("../images/cs.jpg");*/
+    border-radius: 6px;
+}
+body{
+    background-image: url("../images/cs.jpg");
+}
+.dv2 p{
+    background-color: aliceblue;
+    color: red;
+}
