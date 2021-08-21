@@ -1,0 +1,431 @@
+*{ /* định nghĩa cho tất cả các phần tử */
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #222222;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    font-weight: 400;
+    background-color: #fafafa;
+}
+li{
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+}
+.header{
+    float: left;
+    width: 100%;
+    background-color: green;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav{
+    float: left;
+    width: 100%;
+    border-bottom: 1px solid #dddddd;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    position: fixed;/* lamf cho phần tử cố định theo màn hình */
+    top: 60px;
+    left: 0;
+    background-color: white;
+}
+.main{
+    margin-top: 145px;
+    float: left;
+    width: 100%;
+}
+.footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    float: none;
+    margin: auto;
+}
+.content{
+    float: left;
+    width: calc(66.67% - 40px);
+    background-color: palegoldenrod;
+    padding: 20px;
+}
+.sidebar{
+    float: left;
+    width: calc(33.33% - 40px);
+    background-color: aquamarine;
+    padding: 20px;
+}
+/*xong phan layout */
+.logo{
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+.toplinks{
+    float: right;
+}
+.toplinks li{
+    float: left;
+    margin-left: 20px;
+}
+.toplinks li a{
+    color: white;
+    font-size: 16px;
+    line-height: 60px;
+}
+.nav .menu li{
+    float: left;
+    margin-right: 20px;
+}
+.nav .menu li a{
+    color: #222222;
+    font-size: 16px;
+}
+.nav .menu li a:hover {
+    color: red;
+}
+.footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    float: none;
+    margin: auto;
+}
+.content{
+    float: left;
+    width: calc(66.67% - 40px);
+    background-color: palegoldenrod;
+    padding: 20px;
+}
+.sidebar{
+    float: left;
+    width: calc(33.33% - 40px);
+    background-color: aquamarine;
+    padding: 20px;
+}
+/*xong phan layout */
+.logo{
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+.toplinks{
+    float: right;
+}
+.toplinks li{
+    float: left;
+    margin-left: 20px;
+}
+.toplinks li a{
+    color: white;
+    font-size: 16px;
+    line-height: 60px;
+}
+.nav .menu li{
+    float: left;
+    margin-right: 20px;
+}
+.nav .menu li a{
+    color: #222222;
+    font-size: 16px;
+}
+.nav .menu li a:hover {
+    color: red;
+}
+.footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    float: none;
+    margin: auto;
+}
+.content{
+    float: left;
+    width: calc(66.67% - 40px);
+    background-color: palegoldenrod;
+    padding: 20px;
+}
+.sidebar{
+    float: left;
+    width: calc(33.33% - 40px);
+    background-color: aquamarine;
+    padding: 20px;
+}
+/*xong phan layout */
+.logo{
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+.toplinks{
+    float: right;
+}
+.toplinks li{
+    float: left;
+    margin-left: 20px;
+}
+.toplinks li a{
+    color: white;
+    font-size: 16px;
+    line-height: 60px;
+}
+.nav .menu li{
+    float: left;
+    margin-right: 20px;
+}
+.nav .menu li a{
+    color: #222222;
+    font-size: 16px;
+}
+.nav .menu li a:hover {
+    color: red;
+}
+.footer{
+    float: left;
+    width: 100%;
+}
+.container{
+    width: 1200px;
+    float: none;
+    margin: auto;
+}
+.content{
+    float: left;
+    width: calc(66.67% - 40px);
+    background-color: palegoldenrod;
+    padding: 20px;
+}
+.sidebar{
+    float: left;
+    width: calc(33.33% - 40px);
+    background-color: aquamarine;
+    padding: 20px;
+}
+/*xong phan layout */
+.logo{
+    font-size: 40px;
+    color: white;
+    float: left;
+}
+.toplinks{
+    float: right;
+}
+.toplinks li{
+    float: left;
+    margin-left: 20px;
+}
+.toplinks li a{
+    color: white;
+    font-size: 16px;
+    line-height: 60px;
+}
+.nav .menu li{
+    float: left;
+    margin-right: 20px;
+}
+.nav .menu li a{
+    color: #222222;
+    font-size: 16px;
+}
+.nav .menu li a:hover{
+    color: red;
+}
+.content{
+    transition: all 300ms;
+    animation: light2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    /*animation: light2;*/
+    /*animation-duration: 3s;*/
+    /*animation-iteration-count: infinite;*/
+}
+.content:hover{
+    background-color:antiquewhite ;
+    /*transform: translate(50px,50px);*/
+    transform: scale(1.2);
+    /*transform: scale(1.2);*/
+    /*transform: rotate(45deg);*/
+}
+@keyframes light {
+    from{
+        background-color: green;
+    }
+    to{
+        background-color: red;
+    }
+}
+@keyframes light2 {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color:palegoldenrod ;
+    }
+}
+/* vi du loading css animation */
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+from{
+    background-color: green;
+}
+to{
+    background-color: red;
+}
+@keyframes light2 {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color:palegoldenrod ;
+    }
+}
+/* vi du loading css animation */
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+from{
+    background-color: green;
+}
+to{
+    background-color: red;
+}
+@keyframes light2 {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color:palegoldenrod ;
+    }
+}
+/* vi du loading css animation */
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+from{
+    background-color: green;
+}
+to{
+    background-color: red;
+}
+@keyframes light2 {
+    0%{
+        background-color: green;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color:palegoldenrod ;
+    }
+}
+/* vi du loading css animation */
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
